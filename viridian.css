@@ -1,0 +1,91 @@
+body {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin: 2em auto 2em 2em;
+	width: 32em;
+}
+h1, h2, h3, h4, h5 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+header {
+	border-bottom: 4px #000 solid;
+	margin: 0 0 2em 0;
+	overflow: auto;
+	padding: 0 0 1em 0;
+}
+h1.title {
+	color: #40826D;
+	font-size: 4em;
+	letter-spacing: -.05em;
+	line-height: 1;
+	margin: 0 0 0.15em 0;
+}
+	h1.title a {
+		color: #40826D;
+	}
+
+a.main {
+	font-size: 1.2em;
+	font-weight: bold;
+}		
+nav {
+	font-family: Helvetica, Arial, sans-serif;
+}
+nav section {
+	width: 50%;
+	float: left
+}
+nav section:first-child {
+	width: 50%
+}
+nav a {
+	text-decoration: none;
+}
+nav ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	width: 50%;
+	padding: 0;
+}
+nav dd, nav dt, nav dl {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.2em;
+}
+nav dt { 
+	width: 33%; 
+	float: left;
+	font-weight: bold;
+}
+nav dd {
+	float: left;
+	width: 66%; 
+}
+
+dt {
+	font-weight: bold;
+}
+
+/* leftover from old style, still to be stripped out */
+.Italics 
+{   font-style: italic; font-weight: normal; color: #000000}
+.GreenText 
+{  color: #336633 }
+.bluetext 
+{  color: #0600EE }
+.SubHead 
+{   font-size: 110%; }
+
+.Head
+{ font-weight: bold}
+
+H3
+{   font-weight: bold}
+H4
+{  font-weight: bold}
+
+.Footer 
+{  font-size: 90%; font-style: normal; font-weight: bold }
